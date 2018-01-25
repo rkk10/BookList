@@ -33,3 +33,25 @@ header > h1,
 header > p{
     margin: 5px 0px;
 }
+main {
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+ul.list {
+    margin: 20px 0px;
+    padding: 0px;
+    list-style: none;
+}
+main > h1{
+    color: rgba(47, 79, 79, 0.8);;
+}
+li {
+    padding: 10px 30px;
+    height: 60px;
+    border-left: 5px solid #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(48, 48, 48, 0.70);
+}
