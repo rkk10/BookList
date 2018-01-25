@@ -8,9 +8,10 @@ body{
     justify-content: center;
 }
 section{
-    height: auto;
-    width: 700px;
+        width: 700px;
     margin: 20px;
+    box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.30);
+    border-radius: 5px;
 }
 header{
         height: 175px;
@@ -28,6 +29,7 @@ input#search {
     border: none;
     box-shadow: 0px 0px 3px 1px hsla(0, 0%, 50%, 0.3);
     text-indent: 5px;
+    color: gray;
 }
 header > h1,
 header > p{
@@ -40,7 +42,7 @@ main {
 }
 ul.list {
     margin: 20px 0px;
-    padding: 0px;
+    padding: 0px 10px;
     list-style: none;
 }
 main > h1{
@@ -56,15 +58,34 @@ li {
     color: rgba(48, 48, 48, 0.70);
     margin: 15px 0px;
 }
+li:hover {
+    border-color: #b44ce0;
+}
 button {
     height: 30px;
     width: 70px;
     color: white;
-    background: darkviolet;
+    background: rgba(148, 0, 211, 0.7);
     border: none;
     transition: 150ms ease-in-out;
+    border-radius: 5px;
 }
 button:hover {
     transform: translateY(-4px);
     box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.6);
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input#newBook {
+    height: 30px;
+    width: 350px;
+    text-indent: 5px;
+    color: gray;
+    margin: 20px 0px;
+}
+button#add {
+    border-radius: 0px 5px 5px 0px;
 }
