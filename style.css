@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+section{
+    height: auto;
+    width: 700px;
+    margin: 20px;
+}
+header{
+        height: 150px;
+    background: #ffccff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
