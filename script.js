@@ -1,8 +1,10 @@
-var btns = document.getElementsByClassName('del')
+const list = document.getElementById('list')
 
-Array.from(btns).forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-        const li = e.target.parentElement;
-        li.parentNode.removeChild(li)
-    })
+// delete books
+
+list.addEventListener('click', (e)=>{
+    if(e.target.className == 'del'){
+        const li = e.target.parentElement
+        list.removeChild(li)
+       }
 })
