@@ -90,3 +90,12 @@ input#newBook {
 button#add {
     border-radius: 0px 5px 5px 0px;
 }
+.hide{
+        margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+#hide{
+    margin: 0px 10px 0px 0px;
+}
