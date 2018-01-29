@@ -1,4 +1,9 @@
 const list = document.getElementById('list')
+const input = document.getElementById('newBook')
+
+const inputClear = _=> {    
+    input.value = ''
+}
 
 // delete books
 
@@ -14,7 +19,6 @@ list.addEventListener('click', (e)=>{
 const add = document.forms['add_book']
 add.addEventListener('submit',(e)=>{
     e.preventDefault();
-    const list = document.getElementById('list')
     const newBook = add.querySelector('input[type = "text"]').value
     const newLi = document.createElement('li')
     const h4 = document.createElement('h4')
@@ -25,5 +29,5 @@ add.addEventListener('submit',(e)=>{
     newLi.appendChild(h4)
     newLi.appendChild(newDel)
     list.appendChild(newLi)
-    
+    inputClear();
 })
