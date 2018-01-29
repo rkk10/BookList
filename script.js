@@ -31,3 +31,16 @@ add.addEventListener('submit',(e)=>{
     list.appendChild(newLi)
     inputClear();
 })
+
+// Hide books
+
+const hide = document.getElementById('hide')
+
+hide.addEventListener('change', (e)=>{
+    if(hide.checked){
+        list.style.display = 'none'
+    }
+    else{
+        list.style.display = 'initial'
+    }
+})
