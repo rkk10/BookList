@@ -41,7 +41,7 @@ hide.addEventListener('change', (e)=>{
         list.style.display = 'none'
     }
     else{
-        list.style.display = 'initial'
+        list.style.display = 'flex'
     }
 })
 
