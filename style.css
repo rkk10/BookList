@@ -44,6 +44,8 @@ ul.list {
     margin: 20px 0px;
     padding: 0px 10px;
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 main > h1{
     color: rgba(47, 79, 79, 0.8);
