@@ -88,6 +88,7 @@ input#newBook {
     text-indent: 5px;
     color: gray;
     margin: 20px 0px;
+    border: 1.5px solid #dfdfdf;
 }
 button#add {
     border-radius: 0px 5px 5px 0px;
@@ -101,3 +102,20 @@ button#add {
 #hide{
     margin: 0px 10px 0px 0px;
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 500px){
+    
+    section{
+        margin: 0px;
+        border-radius: 0px;
+        width: 100%;
+    }
+    input#newBook{
+        width: auto;
+    }
+}
+
+
+
